@@ -1,242 +1,178 @@
-.box{
-  height: 1500px;
-  margin: 20px;
-  padding-top: 1px;
-  background-color: #626520;
-  border-radius: 15px;
-  
-  
-}
-.heading1{
-  text-align: center;
-  font-size: 70px;
-  margin-top: 30px;
- }
- 
- .heading2{
-   text-align: center;
-   font-size: 55px;
-   margin-top: -30px;
- }
- 
- .div1{
-   background-color:#309180;
-   text-align: center;
-   font-size: 50px;
-   margin: 70px;
-   padding: 40px;
-   border-radius: 15px;
-  
-  
- }
- 
- .span{
-   background-color:#952860;
-   border-top: none;
-   text-align: center;
-   font-size: 40px;
-   margin: 70px;
-   margin-top: -40px;
-   padding: 40px;
-   border-radius: 15px;
- }
- 
- .div2{
-   background-color:#309180;
-   height: 500px;
-   width: 150px;
-   padding-left: 80px;
-   padding-top: 350px;
-   margin-left: 52px;
-   margin-top: -40px;
-   font-size: 40px;
-   border-radius: 15px;
- }
- 
- .flex-container{
-   display: flex;
-   justify-content:space-around;
- }
- 
- .div3{
-   background-color:#309180;
-   padding-top: 25px;
-   height: 830px;
-   width: 550px;
-   margin-top: -40px;
-   margin-right:52px;
-   text-align: center;
-   font-size: 40px;
-   border-radius: 15px;
-   
- }
- 
- .div4{
-   background-color:#309180;
-   border: 10px solid #F1B620;
-   height: 530px;
-   width: 450px;
-   margin: 45px;
-   margin-top: 10px;
-   padding-top: 20px;
-   border-radius: 15px;
-   
- }
- 
- .div5{
-   background-color:#309180;
-   border: 10px solid #F1B620;
-   height: 120px;
-   margin-top: 10px;
-   padding-top: 60px;
-   border-radius: 15px;
-   
- }
- 
- .div6{
-   background-color:#309180;
-   border: 10px solid #F1B620;
-   height: 120px;
-   margin: 40px;
-   padding-top: 50px;
-   border-radius: 15px;
+body{
+  background-color: lightseagreen;
 }
 
- .div7{
-   background-color:#309180;
-   border: 10px solid #F1B620;
-   height: 100px;
-   width: 450px;
-   margin: 45px;
-   margin-top: -30px;
-   padding-top: 50px;
-   border-radius: 15px;
-   
- }
- 
- .div8{
-   background-color:#309180;
-   text-align: center;
-   font-size: 50px;
-   margin: 70px;
-   margin-top: 30px;
-   padding: 40px;
-   border-radius: 15px;
-   
- }
- 
-  .box-2 {
-    height: 1500px;
-    margin: 20px;
-    padding-top: 1px;
-    background-color:rgba(118, 30, 255, 1);
-    border-radius: 15px;
+.navbar{
+  background-color: black;
+  margin-bottom: 30px;
+  padding: 30px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+#flex-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+#photo{
+    height: 200px;
+    width: 300px;
+}
+
+#Flex-basic{
+    flex-basis: 22%;
+    margin: 0;
+    padding: 0;
   }
 
- .heading3{
-   text-align: center;
-  font-size: 55px;
-  margin-top: 150px;
- }
+  #lorem{
+    padding-bottom: 1px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+  }
+
  
-  .div-1{
-   background-color: rgb(255, 118, 145);
-   text-align: center;
-   font-size: 50px;
-   margin: 70px;
-   padding: 40px;
-   border-radius: 15px;
-  
-  
- }
- 
- .span-1{
-   background-color:rgb(69, 224, 167);
-   border-top: none;
-   text-align: center;
-   font-size: 40px;
-   margin: 70px;
-   margin-top: -40px;
-   padding: 40px;
-   border-radius: 15px;
- }
- 
- .div-2{
-   background-color:rgb(250, 207, 214);
-   height: 500px;
-   width: 170px;
-   padding-left: 70px;
-   padding-top: 350px;
-   margin-left: 40px;
-   margin-top: -40px;
-   font-size: 40px;
-   border-radius: 15px;
- }
- 
- .flex-container-2{
-   display: flex;
-   justify-content:space-around;
- }
- 
- .div-3{
-   background-color:rgb(201, 236, 255);
-   padding-top: 25px;
-   height: 830px;
-   width: 550px;
-   margin-top: -40px;
-   margin-right:52px;
-   text-align: center;
-   font-size: 50px;
-   border-radius: 15px;
-   
- }
- 
- .div-4{
-   background-color:rgb(111, 219, 255);
-   height: 530px;
-   width: 450px;
-   margin: 45px;
-   margin-top: 10px;
-   padding-top: 20px;
-   border-radius: 15px;
-   
- }
- 
- .div-5{
-   background-color:rgb(254, 243, 181);
-   height: 120px;
-   margin-top: 10px;
-   padding-top: 60px;
-   border-radius: 15px;
-   
- }
- 
- .div-6{
-   background-color:rgb(237, 255, 169);
-   height: 120px;
-   margin: 40px;
-   padding-top: 50px;
-   border-radius: 15px;
+ #flex-container2{   
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 4%;
 }
 
- .div-7{
-   background-color:rgb(0, 168, 255);
-   height: 100px;
-   width: 450px;
-   margin: 45px;
-   margin-top: -30px;
-   padding-top: 50px;
-   border-radius: 15px;
-   
+#photo2{
+    height: 200px;
+    width: 650px;
+}
+
+#Flex-basic2{
+    flex-basis: 22%;
+    margin: 0;
+    padding: 0;
+  }
+
+#lorem2{
+    padding-bottom: 1px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
  }
- 
- .div-8{
-   background-color:rgb(184, 128, 255);
-   text-align: center;
-   font-size: 50px;
-   margin: 70px;
-   margin-top: 30px;
-   padding: 40px;
-   border-radius: 15px;
+
+ #flex-container3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+#photo3{
+    height: 200px;
+    width: 985px;
+}
+
+#photo4{
+  
+    height: 200px;
+    width: 300px;
+    
+    }
+
+
+
+#Flex-basic3{
    
- }
+    flex-basis: 22%;
+    margin: 0;
+    padding: 0;
+  }
+
+#lorem3 {     
+  padding-bottom: 1px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+
+#flex-container4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+} 
+
+#photo5{
+    height: 200px;
+    width: 1340px;
+}
+
+
+#Flex-basic4{
+    flex-basis: 22%;
+    margin: 0;
+    padding: 0;
+  }
+
+#lorem4{     
+  padding-bottom: 1px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+
+#flex-container5{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+#photo6{
+    height: 200px;
+    width: 300px;
+}
+
+#photo7{
+    height: 200px;
+    width: 650px;
+}
+
+
+#Flex-basic5{
+    flex-basis: 22%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #lorem5{
+    padding-bottom: 1px;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+  }
+  
+  .footer{
+    background-color: black;
+    margin-top: 40px;
+    padding-top: 50px;
+    height: 50px;
+    width: 1350;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
